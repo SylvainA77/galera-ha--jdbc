@@ -1,0 +1,1 @@
+jdbc:mariadb:sequential://<ADDR1>,<ADDR2>,<ADDR3>/<SCHEMA>?autoReconnect=true&connectTimeout=1000&socketTimeout=1000&initSql=select (1/status) from galera_status.connection&transactionReplay=true
